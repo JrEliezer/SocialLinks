@@ -38,7 +38,7 @@ h1{
     font-weight: 400;
     color: #00082F;
     opacity: 0.8;
-    font-size: 18px;
+    font-size: 1.125rem;
 
 }
 
@@ -57,9 +57,9 @@ ul li a{
     background: #4263EB;
     color: white;
     text-transform: uppercase;
-    font-size: 14px;
-    margin-bottom: 16px;
-    border-radius: 6px;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    border-radius: 0.375rem;
     transition: background 400ms;
     
 
@@ -68,19 +68,47 @@ ul li a{
 ul li a:hover {
     background:#364FC7 ;
 }
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    width: 100%;
+    gap: 1.75rem;
+    height: 3rem;
+    
+}
+.icons a{
+    transition: 0.3s ease-in-out;
+
+}
+.icons a:hover {
+    transform:scale(1.5);
+}
+.icons img{
+    width: 3rem;
+    height: 3rem;
+}
+
+
 footer {
     display:flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 2px;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
+
+}
+footer p{
     color: #00082F;
     opacity: 0.6;
     transition: opacity 400ms;
+    cursor: pointer;
 }
-footer:hover {
+footer p:hover {
     opacity: 1;
 }
-footer a{
-    color: #00082F;
-}
+
+
